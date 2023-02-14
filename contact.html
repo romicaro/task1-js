@@ -9,21 +9,59 @@
     <title>AE | Contact</title>
 </head>
 <body>
-    <h1>Amazing Events</h1>
-    <img src="./Recursos/Logo Amazing Events.png" alt="Logo AE">
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./upcoming.html">Upcoming Events</a>
-        <a href="./past.html">Past Events</a>
-        <a href="#">Contact</a>
-        <a href="./stats.html">Stats</a>
-    </nav>
-    <div>
-        <a href="./past.html"><img class="selector" src="./Recursos/anterior.png" alt="anterior"></a>
-    </div>
-    <h2>Contact</h2>
-    <div>
-        <a href="./stats.html"><img class="selector" src="./Recursos/posterior.png" alt="posterior"></a>
-    </div>
+    <header>
+        <div class="encabezado">
+            <h1>Amazing Events</h1>
+            <img class="logo" src="./Recursos/Logo Amazing Events.png" alt="Logo AE">
+            <nav class="nav">
+                <a class="anc" href="./index.html">Home</a>
+                <a class="anc" href="./upcoming.html">Upcoming Events</a>
+                <a class="anc" href="./past.html">Past Events</a>
+                <a class="anc" href="#">Contact</a>
+                <a class="anc" href="./stats.html">Stats</a>
+            </nav>
+        </div>
+        <div class="barra">
+            <div class="flecha">
+                <a href="./past.html"><img class="selector" src="./Recursos/anterior.png" alt="anterior"></a>
+            </div>
+            <h2>Contact us</h2>
+            <div class="flecha">
+                <a href="./stats.html"><img class="selector" src="./Recursos/posterior.png" alt="posterior"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form class="form" action="#" method="get">
+                <fieldset class="f-contacto">
+                    <fieldset class="etiqueta">
+                        <label for="nombre">Name: </label>
+                    </fieldset>
+                        <input class="texto" type="text" name="nombre" id="nombre">
+                    <fieldset class="etiqueta">
+                        <label for="email">Email: </label>
+                    </fieldset>
+                        <input class="texto" type="email" name="email" id="email">
+                    <fieldset class="etiqueta">
+                        <label for="mensaje">Message: </label>
+                    </fieldset>
+                        <textarea name="" id="" cols="24" rows="10"></textarea>
+                </fieldset>
+                <fieldset class="boton">
+                    <input class="boton" type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <!-- <h2>Argentina Programa 2023 | Mindhub</h2> -->
+        <div class="bloque-redes">      
+            <a class= "redes" href="about.html"><img class="red" src="./Recursos/instagram.png" alt="Seguinos en instagram"></a>
+            <a class= "redes" href="about.html"><img src="./Recursos/facebook.png" alt="Miranos en Facebook"></a>
+            <a class= "redes" href="about.html"><img src="./Recursos/WhatsApp.jpg" alt="Contactanos por WhatsApp"></a>
+        </div>
+        <h3>Cohort</h3>
+    </footer>
 </body>
 </html>
