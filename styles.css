@@ -233,3 +233,36 @@ h2{
 .redes:hover{
     transform: scale(1.5, 1.5);
 }
+/* AQUI COMIENZA MEDIA QUERY */
+@media only screen and (min-width: 670px) and (max-width: 970px){
+    .anc{
+        font-size: 55%;
+        /* padding: auto; */
+        height: 50px;
+    }
+    .logo{
+        width: 30%;
+        }        
+}
+@media only screen and (min-width: 370px) and (max-width: 670px){
+    .anc{
+        font-size: 30%;
+        /* padding: auto; */
+        height: 30px;
+        transition: 0.5s;
+    }
+    .anc:hover{
+        transform: scale(1.3);
+    }
+    .logo{
+        width: 35%;
+        }   
+    .container{
+        display: flex;
+        justify-content: center;
+    }  
+    .flecha{
+        /* border: 1px solid black; */
+        width: 15%;
+    }   
+}
