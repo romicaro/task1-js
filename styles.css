@@ -36,6 +36,9 @@ header{
 }
 
 .anc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
     padding: 5px;
     margin: 0.5%;
@@ -51,7 +54,6 @@ header{
 .nav{
     display: flex;
     width: 70%;
-    align-items: end;
     justify-content: end;
     background-color: rgb(157, 110, 245);
 }
@@ -102,6 +104,10 @@ h2{
     height: 60%;
     border-radius: 8px;
     object-fit: cover;
+    transition: 1s;
+}
+.img-tarjeta:hover{
+    transform: scale(0.95, 0.95);
 }
 .descripcion{
     font-size: 70%;
